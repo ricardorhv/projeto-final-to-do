@@ -22,7 +22,59 @@
 </head>
 
 <body>
+  <header>
+    <div class="hero-container">
+      <img src="/assets/logo.svg" alt="Logo">
+    </div>
 
+    <form class="container">
+      <input placeholder="Adicione uma nova tarefa" type="text">
+      <button type="button">
+        Criar
+        <img src="/assets/plus-circle-icon.svg" alt="Ícone de mais">
+      </button>
+    </form>
+  </header>
+
+  <main class="container">
+    <header>
+      <div class="header-item">
+        <span class="created-tasks">Tarefas criadas</span>
+        <div class="quantity-box">
+          <span>0</span>
+        </div>
+      </div>
+
+      <div class="header-item">
+        <span class="completed-tasks">Concluídas</span>
+        <div class="quantity-box">
+          <span>0</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="empty-tasks-container">
+      <img src="/assets/clipboard-icon.svg" alt="Ícone de um documento com texto">
+      <div class="wrapper-text">
+        <strong>Você ainda não tem tarefas cadastradas</strong>
+        <span>Crie tarefas e organize seus itens a fazer</span>
+      </div>
+    </section>
+
+    <!-- <section class="tasks-container">
+      <div class="task-item">
+        <input type="checkbox" id="ck-task">
+
+        <p>
+          Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.
+        </p>
+
+        <button>
+          <img src="/assets/trash-icon.svg" alt="Ícone de uma lixeira">
+        </button>
+      </div>
+    </section> -->
+  </main>
 </body>
 
 </html>
