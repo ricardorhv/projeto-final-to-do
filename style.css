@@ -50,6 +50,10 @@ button {
   }
 }
 
+.hidden {
+  display: none !important;
+}
+
 body > header {
   .hero-container {
     background-color: var(--gray-700);
@@ -312,6 +316,7 @@ main {
         outline: none;
         
         padding: 0.375rem;
+        transform: translateY(-0.375rem);
         border-radius: 4px;
   
         display: flex;
